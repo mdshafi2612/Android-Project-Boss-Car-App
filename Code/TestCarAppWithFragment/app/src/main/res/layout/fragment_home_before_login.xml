@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Later we will try the nested recyclerView-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="1000" />
+
+            <TextView
+                android:id="@+id/NewCarsTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_slider"
+                android:padding="10dp"
+                android:text="New Cars"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#223FFF"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/newcarsRecyclerViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/NewCarsTextViewId"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/ServiceAndRepairTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newcarsRecyclerViewId"
+                android:padding="10dp"
+                android:text="Car Parts"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#223FFF"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/carPartsRecyclerViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ServiceAndRepairTextViewId"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+            <!--Somehow the bottom nav view does not show !!!-->
+            <!--
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/bottom_navigator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        app:itemBackground="@color/purple_500"
+                        app:itemIconTint="@drawable/selector"
+                        app:itemTextColor="@drawable/selector"
+                        app:menu="@menu/bottom_nav_menu_layout"
+                        >
+
+                    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

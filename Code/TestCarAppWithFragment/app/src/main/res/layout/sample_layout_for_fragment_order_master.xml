@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#D3D3D3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/OrderIdTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Order ID : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_green"/>
+
+            <TextView
+                android:id="@+id/OrderDateTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/OrderIdTextViewId"
+                android:text="Order Date : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/AddressTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/OrderDateTextViewId"
+                android:text="Address : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/PaymentTypeTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/AddressTextViewId"
+                android:text="Payment Type : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/PaymentStatusTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/PaymentTypeTextViewId"
+                android:text="Payment Status : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/OrderStatusTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/PaymentStatusTextViewId"
+                android:text="Order Status : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+<!--            <Button
+                android:id="@+id/CreatePDFButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/OrderStatusTextViewId"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonshape"
+                android:backgroundTint="#4BFF22"
+                android:drawableStart="@drawable/ic_baseline_picture_as_pdf_24"
+                android:text="Create PDF"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold" />-->
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

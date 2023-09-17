@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_View">
+    <!--We have to put the menu item into one single
+    group so that only one menu item can be clickable-->
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/adminDashboardMenuItem"
+            android:icon="@drawable/admin_dashboard_icon"
+            android:title="Admin Dashboard" />
+<!--Brand is category-->
+        <item
+            android:id="@+id/carBrandMenuItem"
+            android:icon="@drawable/ic_category_icon_admin_panel"
+            android:title="Car Brand Master" />
+<!--Car is the product-->
+        <item
+            android:id="@+id/carMenuItem"
+            android:icon="@drawable/product_icon_admin_panel"
+            android:title="car Master" />
+
+        <item
+            android:id="@+id/orderMenuItem"
+            android:icon="@drawable/carordericon"
+            android:title="Order Master" />
+
+        <item
+            android:id="@+id/userMenuItem"
+            android:icon="@drawable/ic_admin_login"
+            android:title="User Master" />
+
+        <item
+            android:id="@+id/contactMenuItem"
+            android:icon="@drawable/ic_admin_login"
+            android:title="Contact Master" />
+
+        <item
+            android:id="@+id/ServiceandRepairMenuItem"
+            android:icon="@drawable/brake"
+            android:title="Car Parts Master" />
+
+        <item
+            android:id="@+id/AdminlogoutMenuItem"
+            android:icon="@drawable/logoutmenuitem"
+            android:title="Logout" />
+
+
+    </group>
+
+   <!-- <item android:title="Cars">
+
+        <menu>
+
+            <item
+                android:id="@+id/carMenuItem"
+                android:icon="@drawable/newcaricon"
+                android:title="New Cars" />
+
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Service and Repair">
+
+        <menu>
+
+            <item
+                android:id="@+id/serviceandrepairMenuItem"
+                android:icon="@drawable/carparts"
+                android:title="Car Parts" />
+
+
+        </menu>
+
+
+
+
+    </item>
+
+    <item android:title="Contact Info">
+
+        <menu>
+
+            <item
+                android:id="@+id/contactUsMenuItem"
+                android:icon="@drawable/contactusicon"
+                android:title="About Us" />
+
+
+        </menu>
+
+
+
+
+    </item>-->
+
+
+</menu>

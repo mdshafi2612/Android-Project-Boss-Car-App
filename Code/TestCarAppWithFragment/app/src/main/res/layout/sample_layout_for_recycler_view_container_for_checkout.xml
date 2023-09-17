@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/white">
+
+
+
+    <TextView
+        android:id="@+id/YourOrderTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Your Order"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/YourOrderTextViewId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        app:cardBackgroundColor="@color/purple_700"
+        app:cardCornerRadius="150dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="150dp">
+
+            <ImageView
+                android:id="@+id/carImageViewForCheckoutId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/CarModelNameForCheckoutId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Car Model"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/CarTotalPriceTextViewIdForChcekout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CarModelNameForCheckoutId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Car Price"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/RemoveOrderForCheckoutId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CarTotalPriceTextViewIdForChcekout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_baseline_delete_24"
+        android:backgroundTint="#000000" />
+
+</RelativeLayout>

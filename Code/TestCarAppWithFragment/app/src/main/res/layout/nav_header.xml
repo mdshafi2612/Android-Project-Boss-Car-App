@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#FF1199"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/usericon"
+        />
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Boss Car App"
+        android:layout_gravity="center"
+        android:backgroundTint="#2252FF"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/navHeaderTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#2252FF"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        />
+
+    <!--    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="md.shafi.ju@gmail.com"
+            android:textColor="@android:color/white"
+            />-->
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginregistrationbackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adduser"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin Registration"
+                android:textSize="30sp"
+                android:textColor="#FFD600"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_admin_name_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your Username"
+                    android:inputType="text"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttonshape"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_admin_email_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your email"
+                    android:inputType="textEmailAddress"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttonshape"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_admin_password_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your password"
+                    android:inputType="text"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttonshape"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_admin_retype_password_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Retype your password"
+                    android:inputType="text"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttonshape"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_admin_mobile_no_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="11"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your mobile"
+                    android:inputType="text"
+                    android:id="@+id/TextViewDOBId"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttonshape"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_admin_address_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your address"
+                    android:inputType="text"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttonshape"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--        <Button
+                        android:id="@+id/DatePickerButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose Date"
+                        android:drawableStart="@drawable/datepicker_icon"
+                        />-->
+
+            <!--         <com.google.android.material.textfield.TextInputLayout
+                         android:id="@+id/text_date_of_birth_Id"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         app:errorEnabled="true">
+
+                         <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+
+                             />
+
+                     </com.google.android.material.textfield.TextInputLayout>-->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/AdminSignUpButtonId"
+                android:background="@drawable/buttonshape"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/GotoAdminLoginPageButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Already have an account ? Sign In"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/layout_id"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:padding="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit Cars"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <EditText
+                        android:id="@+id/editCarPlateNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:hint="Edit car plate no"
+                        android:inputType="text"/>
+
+
+
+                    <EditText
+                        android:id="@+id/editCarModel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarPlateNo"
+                        android:hint="Edit Car Model"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/editCarPrice"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarModel"
+                        android:hint="Edit Car Price" />
+
+                    <EditText
+                        android:id="@+id/editCarOwnerType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarPrice"
+                        android:hint="Edit Car Owner Type"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/editCarShortDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarOwnerType"
+                        android:hint="Edit short description about the car"
+                        android:inputType="text"/>
+
+                    <EditText
+                        android:id="@+id/editCarQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarShortDescription"
+                        android:hint="Edit Car Quantity"
+                        android:inputType="number"/>
+
+
+<!--                    <TextView
+                        android:id="@+id/UpdateImageTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarQuantity"
+                        android:text="Update Car Image "
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <Button
+
+                        android:id="@+id/updateCarImagebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/UpdateImageTextView"
+                        android:text="Choose an image from the gallery"
+                        android:background="@drawable/buttonshape"
+                        />-->
+
+                    <Button
+                        android:id="@+id/updateCarButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editCarQuantity"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/buttonshape"
+                        android:text="Update Car in DB"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

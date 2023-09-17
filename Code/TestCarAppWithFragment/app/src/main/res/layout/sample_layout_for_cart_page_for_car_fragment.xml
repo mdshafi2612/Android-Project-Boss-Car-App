@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/CarImageViewForCartId"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/carBrandNameForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CarImageViewForCartId"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20sp"
+            android:text="Car Brand Name"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carModelNameForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/carBrandNameForCartId"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20sp"
+            android:text="Car Model Name"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CarPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/carModelNameForCartId"
+            android:layout_margin="30sp"
+            android:text="Car Price"
+            android:textColor="#2247FF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/CarPriceForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/carModelNameForCartId"
+            android:layout_marginTop="30sp"
+            android:layout_toEndOf="@+id/CarPriceTextView"
+            android:text="Car Price In Number"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/decreaseCarQuantityButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CarPriceTextView"
+            android:layout_marginStart="50dp"
+            android:text="-"
+            android:textColor="#ff22"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/CarQuantityForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/CarPriceTextView"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/decreaseCarQuantityButtonId"
+            android:text="Quantity" />
+
+        <Button
+            android:id="@+id/increaseCarQuantityButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CarPriceTextView"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/CarQuantityForCartId"
+            android:text="+"
+            android:textColor="#64FF22"
+            android:textSize="30sp" />
+
+        <!--This button is for checking if update is possible-->
+
+        <Button
+            android:id="@+id/updateCarQuantityForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/decreaseCarQuantityButtonId"
+            android:layout_centerInParent="true"
+            android:layout_margin="20sp"
+            android:background="@drawable/buttonshape"
+            android:text="Update Quantity"
+            android:textAllCaps="false"
+
+            />
+
+        <TextView
+            android:id="@+id/CarTotalPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateCarQuantityForCartId"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Car Total Price"
+            android:textColor="#2247FF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CarTotalPriceForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateCarQuantityForCartId"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/CarPriceTextView"
+            android:text="Car Total Price"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/RemoveCarForCartId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CarTotalPriceForCartId"
+            android:layout_centerInParent="true"
+            android:layout_margin="20sp"
+            android:background="@drawable/buttonshape"
+            android:text="Remove Car From Cart"
+            android:textAllCaps="false"
+
+            />
+
+
+
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

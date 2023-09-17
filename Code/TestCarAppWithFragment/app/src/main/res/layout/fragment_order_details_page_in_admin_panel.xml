@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/IntroTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Order Detail Page"
+                android:textColor="#E60911"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/CarModelTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/IntroTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:layout_marginBottom="20dp"
+                android:text="Car Model : "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/CarModelForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/IntroTextViewId"
+                android:layout_margin="20dp"
+                android:layout_toEndOf="@+id/CarModelTextViewId"
+                android:text="Car Model value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/CarImageViewTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarModelTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:layout_marginBottom="20dp"
+                android:text="Car Image : "
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/SelectedCarImageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/CarModelTextViewId"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginBottom="80dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/CarQuantityTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SelectedCarImageView"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Quantity : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/CarQuantityForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SelectedCarImageView"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/CarQuantityTextViewId"
+                android:text="Car Quantity value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/CarPriceTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarQuantityTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Unit Price : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/CarPriceForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarQuantityTextViewId"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/CarQuantityTextViewId"
+                android:text="Unit Price value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/CarTotalPriceTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarPriceTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Total Price : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/CarTotalPriceForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarPriceTextViewId"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/CarQuantityTextViewId"
+                android:text="Total Price value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/CarTotalPriceShowTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarTotalPriceTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Total Price : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/CarTotalPriceShowForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarTotalPriceTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@+id/CarTotalPriceShowTextViewId"
+                android:text="Total Price value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AddressTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CarTotalPriceShowTextViewId"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Address"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+
+                />
+
+            <TextView
+                android:id="@+id/StreetAddressForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AddressTextViewId"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Street Address"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/CityStateForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AddressTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/StreetAddressForOrderDetailTextViewId"
+                android:text="City State Value : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/PinCodeForOrderDetailTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AddressTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/CityStateForOrderDetailTextViewId"
+                android:text="Pin Code value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/OrderStatusShowTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreetAddressForOrderDetailTextViewId"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Order Status"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/OrderStatusValueTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreetAddressForOrderDetailTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/OrderStatusShowTextViewId"
+                android:text="Order Status value"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/OrderStatusUpdateSpinnerId"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/OrderStatusShowTextViewId"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:autofillHints="Update Values" />
+
+            <Button
+                android:id="@+id/SubmitButtonIdForOrderDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/OrderStatusUpdateSpinnerId"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/buttonshape"
+
+                android:backgroundTint="@color/teal_200"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

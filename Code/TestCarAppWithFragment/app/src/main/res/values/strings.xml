@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestCarApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="active">Active</string>
+    <string name="option1">School</string>
+    <string name="option2">Hospital</string>
+    <string name="option3">Airport</string>
+    <string name="option4">Restaurant</string>
+</resources>

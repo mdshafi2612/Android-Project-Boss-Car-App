@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/SelectedCarImageViewId"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="16dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/CarBrandNameTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:text="Car Brand Name "
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/SelectedCarImageViewId"/>
+
+            <TextView
+                android:id="@+id/CarModelNameTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="36dp"
+                android:text="Car Model Name"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/CarBrandNameTextViewId"/>
+
+            <TextView
+                android:id="@+id/AvailabilityTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:text="Availability : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/CarModelNameTextViewId"/>
+
+            <TextView
+                android:id="@+id/QuantityTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="36dp"
+                android:text="Quantity : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/AvailabilityTextViewId"/>
+
+            <Spinner
+                android:id="@+id/QuantitySpinnerId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/InStockTextViewId"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="36dp"
+                android:layout_toEndOf="@+id/QuantityTextViewId" />
+
+            <TextView
+                android:id="@+id/InStockTextViewId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="40dp"
+                android:text="In Stock or Not In Stock"
+                android:textSize="18sp"
+                android:layout_below="@+id/CarModelNameTextViewId"
+                android:layout_toEndOf="@+id/AvailabilityTextViewId"/>
+
+            <TextView
+                android:id="@+id/DescriptionTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuantityTextViewId"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="108dp"
+                android:text="Description : "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptioneditTextMultiLineId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuantitySpinnerId"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="24dp"
+                android:layout_toEndOf="@+id/DescriptionTextViewID"
+                android:ems="10"
+                android:gravity="start|top" />
+
+            <Button
+                android:id="@+id/AddToCartButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonshape"
+                android:text="Add To Cart"
+                android:textAllCaps="false"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/DescriptioneditTextMultiLineId"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

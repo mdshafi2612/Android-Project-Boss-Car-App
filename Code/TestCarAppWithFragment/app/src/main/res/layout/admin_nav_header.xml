@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#45FF11"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ImageView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/usericon"
+        />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Boss Car Admin Panel"
+        android:layout_gravity="center"
+        android:backgroundTint="#2252FF"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        />
+
+    <!--    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="md.shafi.ju@gmail.com"
+            android:textColor="@android:color/white"
+            />-->
+
+</LinearLayout>

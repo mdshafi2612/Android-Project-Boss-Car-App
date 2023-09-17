@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2390415144",
+    "project_id": "testcarappwithfragment",
+    "storage_bucket": "testcarappwithfragment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2390415144:android:567bdf947df09e8153221d",
+        "android_client_info": {
+          "package_name": "com.example.testcarappwithfragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2390415144-470rqd74e5o74utbhrr4brsj0tof57d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmie31Q08uQXyTltwebaOC1U5FUxUM-Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2390415144-470rqd74e5o74utbhrr4brsj0tof57d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/carMenuItem"
+        android:icon="@drawable/product_icon_admin_panel"
+        android:title="car Master" />
+
+    <item
+        android:id="@+id/orderMenuItem"
+        android:icon="@drawable/carordericon"
+        android:title="Order Master" />
+
+    <item
+        android:id="@+id/userMenuItem"
+        android:icon="@drawable/ic_admin_login"
+        android:title="User Master" />
+
+
+</menu>

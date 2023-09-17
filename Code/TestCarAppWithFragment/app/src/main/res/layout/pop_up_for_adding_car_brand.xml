@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:padding="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add New Car Brands"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        />
+
+
+                    <EditText
+                        android:id="@+id/carBrandName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:hint="Enter car brand Name"
+                        android:inputType="text"/>
+
+
+                    <EditText
+                        android:id="@+id/carBrandStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_below="@+id/carBrandName"
+                        android:hint="Enter Car staus : Active(1) Deactive(0)" />
+
+
+                    <Button
+                        android:id="@+id/saveButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/carBrandStatus"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/buttonshape"
+                        android:text="Save Car Brand in DB"
+                        android:backgroundTint="#4EDA03"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

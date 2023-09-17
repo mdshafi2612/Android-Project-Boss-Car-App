@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/CarImageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Car Image"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/CarImageViewIdForWishlist"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/CarImageTextView"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/CarModelNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Model Name : "
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/CarImageViewIdForWishlist"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/carModelNameForWishlistPageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model Name Value"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/CarImageViewIdForWishlist"
+        android:layout_toEndOf="@+id/CarModelNameTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/CarUnitPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Unit Price : "
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/CarModelNameTextView"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/carUnitPriceForWishlistPageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Car Unit Price Value"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/CarModelNameTextView"
+        android:layout_toEndOf="@+id/CarUnitPriceTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/removeCarFromWishlistButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Remove Car From Wishlist"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:drawableStart="@drawable/ic_baseline_delete_24"
+        android:layout_below="@+id/CarUnitPriceTextView"
+
+        />
+
+    <Button
+        android:id="@+id/GoToCartPageButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Go To Cart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:drawableStart="@drawable/ic_baseline_delete_24"
+        android:layout_below="@+id/removeCarFromWishlistButtonId"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

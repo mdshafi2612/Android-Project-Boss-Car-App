@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#D3D3D3">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/carBrandImageViewId"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/car_image1"/>
+
+            <TextView
+                android:id="@+id/carBrandId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carBrandImageViewId"
+                android:paddingTop="4dp"
+                android:text="Car Brand Name"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/carModelId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carBrandId"
+                android:paddingTop="4dp"
+                android:text="Car Model Name"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/carPriceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carModelId"
+                android:paddingTop="4dp"
+                android:text="Price : "
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/carOwnerId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carPriceId"
+                android:paddingTop="4dp"
+                android:text="Owner Type:(Brand New Car/Owner name)"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/carPlateNoId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carOwnerId"
+                android:paddingTop="4dp"
+                android:text="Car Plate No"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/carShortDescriptionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carPlateNoId"
+                android:paddingTop="4dp"
+                android:text="Car Description: "
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/carQuantityId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carShortDescriptionId"
+                android:paddingTop="4dp"
+                android:text="Car Quantity: "
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/dummyTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carQuantityId"
+                android:paddingTop="4dp"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+<!--            <TableRow
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_alignBottom="@id/dummyTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:id="@+id/activedeactiveButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="@string/active"
+                    android:textColor="#ff22"
+                    android:backgroundTint="#64FF22"
+                    />
+                    &lt;!&ndash;android:background="@android:drawable/ic_lock_power_off"&ndash;&gt;
+
+
+
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@android:drawable/ic_menu_edit"
+                    />
+
+                <Button
+                    android:id="@+id/deleteButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@android:drawable/ic_delete"
+                    />
+
+
+
+
+            </TableRow>-->
+
+
+            <Button
+                android:id="@+id/activedeactiveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carQuantityId"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+
+
+                />
+
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/carQuantityId"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toEndOf="@+id/activedeactiveButton"
+                android:background="@android:drawable/ic_menu_edit" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/deleteButton"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:background="@android:drawable/ic_delete"
+                android:layout_below="@+id/carQuantityId"
+                android:layout_toEndOf="@+id/editButton"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

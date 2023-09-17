@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/background.xml" value="0.1845" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/buttonshape.xml" value="0.1845" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/carparts.xml" value="0.1845" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/circlebackgroundblue.xml" value="0.1495" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/search_view_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/selector.xml" value="0.114" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/drawable/shopping_cart_icon.xml" value="0.1495" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/activity_new_cars_lists.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/activity_online_payment.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/activity_splash_screen.xml" value="0.21" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/admin_nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/carparts_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/confirmation_pop_for_delete.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_admin_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_car_brand_master.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_car_master.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_car_parts_master.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_cart_page_for_car.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_checkout_page_for_car.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_contact_master.xml" value="0.15234375" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_contact_us.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_forget_password_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_home_before_login.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_login_admin.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_login_customer.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_my_account_profile_page.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_my_cart_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_my_order_list.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_my_wishlist_page.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_new_cars_details_page.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_new_cars_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_new_cars_parts_list.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_order_details_page_in_admin_panel.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_order_master.xml" value="0.16" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_register_admin.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_register_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_service_and_repair.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_used_cars_details_page.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_used_cars_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_user_master.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/fragment_wishlist_page_for_car.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/pop_up_for_adding_car.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/pop_up_for_adding_car_brand.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/pop_up_for_adding_car_parts.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/pop_up_for_editing_car.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/pop_up_for_editing_car_brand.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/recycler_view_container_for_checkout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/reset_password_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_cart_page_for_car_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_car_brand_master.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_car_master.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_car_parts_master.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_contact_master.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_my_order_list.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_my_wishlist_page.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_order_master.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_fragment_user_master.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_new_car_list.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_new_car_parts_list.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_new_cars_details_page.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/sample_layout_for_recycler_view_container_for_checkout.xml" value="0.15" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/toolbar_layout.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/layout/top5newcars_layoutinrecyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/menu/admin_bottom_nav_menu_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/menu/admin_nav_menu_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/menu/bottom_nav_menu_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/menu/nav_menu_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TestCarAppWithFragment/app/src/main/res/menu/search_bar_menu_layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

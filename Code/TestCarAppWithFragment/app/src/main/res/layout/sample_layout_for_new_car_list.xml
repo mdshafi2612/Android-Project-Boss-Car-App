@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#FAFAFA">
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/NewCarListImageViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/car_image1"/>
+
+                <TextView
+                    android:id="@+id/NewCarBrandId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NewCarListImageViewId"
+                    android:paddingTop="4dp"
+                    android:text="Car Brand Name"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/NewCarModelId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NewCarBrandId"
+                    android:paddingTop="4dp"
+                    android:text="Car Model Name"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/NewCarPriceId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NewCarModelId"
+                    android:paddingTop="4dp"
+                    android:text="Price : "
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/AddToWishlistTableId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NewCarPriceId"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/buttonshape"
+                    android:drawableStart="@drawable/wishlist_icon"
+                    android:text="Add Car to Your Wishlist"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/GoToWishListPageId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/AddToWishlistTableId"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:backgroundTint="#FF6822"
+                    android:text="See Your Wishlist"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
